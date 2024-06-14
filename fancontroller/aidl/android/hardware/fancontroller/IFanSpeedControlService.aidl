@@ -3,7 +3,7 @@ package android.hardware.fancontroller;
 
 // Declare any non-default types here with import statements
 
-
+//Annotation
 @VintfStability
 interface IFanSpeedControlService {
 

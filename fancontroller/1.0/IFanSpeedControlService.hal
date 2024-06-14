@@ -23,30 +23,30 @@ interface IFanSpeedControlService {
     decreaseFanSpeed() generates (bool success);
 
     /**
-     * Method to turn the fan on
+     * Method to turn the fan on.
      *
-     * @return true if successful, false otherwise
+     * @return true if successful, false otherwise.
      */
     turnFanOn() generates (bool success);
 
     /**
-     * Method to turn the fan off
+     * Method to turn the fan off.
      *
-     * @return true if successful, false otherwise
+     * @return true if successful, false otherwise.
      */
     turnFanOff() generates (bool success);
 
     /**
-     * Method to get the current fan speed
+     * Method to get the current fan speed.
      *
-     * @return the current fan speed
+     * @return the current fan speed.
      */
     getFanSpeed() generates (int32_t speed);
 
     /**
-     * Method to get the current fan on/off status
+     * Method to get the current fan on/off status.
      *
-     * @return true if the fan is on, false otherwise
+     * @return true if the fan is on, false otherwise.
      */
     isFanOn() generates (bool status);
 };
